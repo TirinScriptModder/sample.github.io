@@ -3,7 +3,7 @@
 *System.finishGame();->勝敗判定とウィンドウの処理
 *System.pauseTurn();->ターンチェンジ
 *System.resetCell();->変数の初期化と再読み込み
-*System.sendMain();->メーラー起動
+*System.sendMail();->メーラー起動
 *System.changeCell(x,y);->セルの裏返し判定と処理
 */
 "use strict";
