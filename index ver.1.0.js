@@ -21,7 +21,7 @@ const System={
 		document.write("<input id='pause' onclick=System.pauseTurn(); style='font-size:312.5%;width:25%;' type='button' value='パス'>");
 		document.write("<input id='pause' onclick=System.finishGame(); style='font-size:312.5%;width:25%;' type='button' value='終了'>");
 		document.write("<input id='reset' onclick=System.resetCell(); style='font-size:312.5%;width:25%;' type='button' value='リセット'>");
-		document.write("<input id='mail' onclick=System.sendMain(); style='font-size:312.5%;width:25%;' type='button' value='問い合わせ'>");
+		document.write("<input id='mail' onclick=System.sendMail(); style='font-size:312.5%;width:25%;' type='button' value='問い合わせ'>");
 		document.getElementById("3_3").style.color='white';
 		document.getElementById("4_4").style.color='white';
 		document.getElementById("3_4").style.color='black';
@@ -53,7 +53,7 @@ const System={
 		location.reload();
 		window.alert("リセットしました");
 	},
-	sendMain:function(){
+	sendMail:function(){
 		location.href='mailto:tirin.script.modder@gmail.com';
 		window.alert("メールを送信します");
 	},
